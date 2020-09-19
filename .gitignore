@@ -1,22 +1,23 @@
-!healthMIT/venv/
-healthMIT/venv/*
-!healthMIT/venv/lib/
-healthMIT/venv/lib/*
-!healthMIT/venv/lib/python3.7/
-healthMIT/venv/lib/python3.7/*
-!healthMIT/venv/lib/python3.7/site-packages/
-healthMIT/venv/lib/python3.7/site-packages/*
-!healthMIT/venv/lib/python3.7/site-packages/healthcareai/
-healthMIT/venv/lib/python3.7/site-packages/healthcareai/*
+healthMIT/venv/
+# !healthMIT/venv/
+# healthMIT/venv/*
+# !healthMIT/venv/lib/
+# healthMIT/venv/lib/*
+# !healthMIT/venv/lib/python*/
+# healthMIT/venv/lib/python*/*
+# !healthMIT/venv/lib/python*/site-packages/
+# healthMIT/venv/lib/python*/site-packages/*
+# !healthMIT/venv/lib/python*/site-packages/healthcareai/
+# healthMIT/venv/lib/python*/site-packages/healthcareai/*
 
-!healthMIT/venv/lib/python3.7/site-packages/healthcareai/common/
-healthMIT/venv/lib/python3.7/site-packages/healthcareai/common/*
-!healthMIT/venv/lib/python3.7/site-packages/healthcareai/common/top_factors.py
-!healthMIT/venv/lib/python3.7/site-packages/healthcareai/common/transformers.py
+# !healthMIT/venv/lib/python*/site-packages/healthcareai/common/
+# healthMIT/venv/lib/python*/site-packages/healthcareai/common/*
+# !healthMIT/venv/lib/python*/site-packages/healthcareai/common/top_factors.py
+# !healthMIT/venv/lib/python*/site-packages/healthcareai/common/transformers.py
 
-!healthMIT/venv/lib/python3.7/site-packages/healthcareai/trained_models/
-healthMIT/venv/lib/python3.7/site-packages/healthcareai/trained_models/*
-!healthMIT/venv/lib/python3.7/site-packages/healthcareai/trained_models/trained_supervised_model.py
+# !healthMIT/venv/lib/python*/site-packages/healthcareai/trained_models/
+# healthMIT/venv/lib/python*/site-packages/healthcareai/trained_models/*
+# !healthMIT/venv/lib/python*/site-packages/healthcareai/trained_models/trained_supervised_model.py
 
 .DS_Store
 __pycache__
