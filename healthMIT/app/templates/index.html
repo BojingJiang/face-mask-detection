@@ -37,7 +37,13 @@
 			<img src="https://ibug.doc.ic.ac.uk/media/uploads/images/annotpics/figure_68_markup.jpg" 
 			width=50% height=50%>
 			<p style="font-style:italic;">68 points mark-up</p>
-			<button type="button">Post</button>
+			<form action="" method="post">
+		            <input type="file" name="imgfile">
+			    <input type="submit" />
+			</form>
+			<div>
+				{{ result }}
+			</div>
 		
 			<div>
 				<h3>Data</h3>
