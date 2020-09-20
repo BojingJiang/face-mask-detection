@@ -4,40 +4,9 @@
 		<link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
-			<h1 style="font-size:200%">Optical Character Recognition</h1>
-			<img src="https://lionbridge.ai/wp-content/uploads/2019/03/standard_best-ocr-dataset.png" 
-			width=50% height=50%>
-			<p style="font-style:italic;">edit, search, index, and retrieve</p>
-			<button type="button">Post</button>
-		
-			<div>
-				<h3>Data</h3>
-				<p>...</p>
-			</div>
-
-			<div>
-				<h3>Model</h3>
-				<p>...</p>
-			</div>
-
-			<div>
-				<h3>training dataset</h3>
-				<p>...<p>
-			</div>
-
-			<div>
-				<h3>testing dataset</h3>
-				<p>...</p>
-			</div>
-		</div>
-
 		<div>
-			<h1 style="font-size:200%">Facial Landmark Detection</h1>
-			<img src="https://ibug.doc.ic.ac.uk/media/uploads/images/annotpics/figure_68_markup.jpg" 
-			width=50% height=50%>
-			<p style="font-style:italic;">68 points mark-up</p>
-			<form action="" method="post">
+			<form action = "/upload" method = "POST" enctype = "multipart/form-data">
+			<h1 style="font-size:200%">Do you wear your mask correctly?</h1>
 		            <input type="file" name="imgfile">
 			    <input type="submit" />
 			</form>
@@ -45,25 +14,6 @@
 				{{ result }}
 			</div>
 		
-			<div>
-				<h3>Data</h3>
-				<p>...</p>
-			</div>
-
-			<div>
-				<h3>Model</h3>
-				<p>...</p>
-			</div>
-
-			<div>
-				<h3>training dataset</h3>
-				<p>...<p>
-			</div>
-
-			<div>
-				<h3>testing dataset</h3>
-				<p>...</p>
-			</div>
 		</div>
     </body>
 </html>
