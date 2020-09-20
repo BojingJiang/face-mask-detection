@@ -28,7 +28,8 @@ def index():
 @app.route('/upload', methods=['GET', 'POST'])
 def upload():
     img = request.files['imgfile']
-    name=img.filename
+    dotname = img.filename.split('.')[-1]
+    name='temp.' + dotname
     img.save(name)
     nose = has_nose(name)
     if nose:
