@@ -6,3 +6,5 @@ cp lib_fixed/top_factors.py <ROOT_REPO>/healthMIT/venv/lib/<python dir>/site-pac
 cp lib_fixed/trained_supervised_model.py <ROOT_REPO>/healthMIT/venv/<python dir>/site-packages/healthcareai/trained_models/trained_supervised_model.py
 cp lib_fixed/transformers.py <ROOT_REPO>/healthMIT/venv/lib/<python dir>/site-packages/healthcareai/common/transformers.py
 ```
+
+identify facial landmarks with 68 points mark-up to tell if people wear mask properly in times of pandemic
