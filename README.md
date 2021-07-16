@@ -7,4 +7,4 @@ cp lib_fixed/trained_supervised_model.py <ROOT_REPO>/healthMIT/venv/<python dir>
 cp lib_fixed/transformers.py <ROOT_REPO>/healthMIT/venv/lib/<python dir>/site-packages/healthcareai/common/transformers.py
 ```
 
-identify facial landmarks with 68 points mark-up to tell if people wear mask properly in times of pandemic
+face mask detection in times of pandemic
