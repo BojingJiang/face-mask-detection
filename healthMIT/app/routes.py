@@ -33,9 +33,9 @@ def upload():
     img.save(name)
     nose = has_nose(name)
     if nose:
-        prompt = 'We detect a nose in this image. Maybe your mask did not cover your nose.'
+        prompt = 'We have detected an uncovered nose in this image.'
     else:
-        prompt = 'We did\'t detect a nose in this image. Maybe your mask covered your nose.'
+        prompt = 'We have not detected an uncovered nose in this image.'
 
     return render_template('index.html', result=prompt)
 
